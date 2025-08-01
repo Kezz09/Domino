@@ -33,7 +33,7 @@ public class Sonidos {
             FloatControl gainControl = (FloatControl) backgroundClip.getControl(FloatControl.Type.MASTER_GAIN);
             float min = gainControl.getMinimum();
             float max = gainControl.getMaximum();
-            float gain = (float) (min + (max - min) * 0.5);
+            float gain = (float) (min + (max - min) * 0.8);
             gainControl.setValue(gain);
 
             if (loop) backgroundClip.loop(Clip.LOOP_CONTINUOUSLY);
