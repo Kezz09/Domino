@@ -201,10 +201,10 @@ public class Juego {
 
     public String chequearGanador() {
         if (fichasJugador.isEmpty()) {
-            return "¡Felicidades! Ganaste, te quedaste sin fichas.";
+            return "¡Felicidades! Has ganado, te quedaste sin fichas.:D";
         }
         if (fichasComputadora.isEmpty()) {
-            return "¡Perdiste! La computadora se quedó sin fichas.";
+            return "¡Has sido derrotado! La computadora se quedó sin fichas.";
         }
         return null;
     }
