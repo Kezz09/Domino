@@ -61,7 +61,7 @@ public class PantallaPresentacion extends JFrame {
         JLabel facultad = new JLabel("Facultad de Sistemas");
         JLabel carrera = new JLabel("Carrera: Ingeniería de Software");
         JLabel grupo = new JLabel("Grupo: 1SF122");
-        JLabel integrantes = new JLabel("<html>Integrantes:<br>- Kevin Marciaga - 8-1008-259<br>- Aldahir Sánchez - 8-997-2242<br>- Isaac Salinas - 20-14-8000<br>- Isaac Salinas - 20-14-8000</html>");
+        JLabel integrantes = new JLabel("<html>Integrantes:<br>- Kevin Marciaga - 8-1008-259<br>- Aldahir Sánchez - 8-997-2242<br>- Isaac Salinas - 20-14-8000<br>- Ernesto Botacio - 8-1028-2284</html>");
         JLabel profesor = new JLabel("Profesor: Rodrigo Yángüez");
         JLabel fecha = new JLabel("Fecha de entrega: 01/08/2025");
 
